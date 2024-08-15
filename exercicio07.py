@@ -7,4 +7,7 @@ disciplina=str(input("Informe a disciplina: "))
 
 media=(notas[0]+notas[1]+notas[2]+notas[3])/4
 
-print(f"A média das notas na disciplina de {disciplina} é de {media}")
+if media >= 7:
+    print(f"A média das notas na disciplina de {disciplina} é de {media}, você foi Aprovado!")
+else:
+    print(f"A média das notas na disciplina de {disciplina} é de {media}, você foi Reprovado!")
