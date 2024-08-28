@@ -5,10 +5,8 @@ def e_primo(n):
 
   if n < 2:
       return False
-  elif n == 2:
-      primo_ = True
   else:
-    for i in range(3,n):
+    for i in range(2,n):
       if n % i == 0:
         primo_ = False
         break
@@ -20,7 +18,3 @@ def e_primo(n):
 
 for i in range (1, num+1):
   print(e_primo(i), i)
-  # if (e_primo(i) == True):
-  #   print(i)
-  # else:
-  #   continue
