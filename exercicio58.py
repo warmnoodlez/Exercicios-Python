@@ -15,7 +15,7 @@ if (combustivel == "G"):
     desconto = preco * 0.05
     total = preco - desconto
     print(f"O valor a ser pago é R${total:.2f}")
-elif (combustivel == "A")
+elif (combustivel == "A"):
   if (litros <= 20):
     preco = litros * 3.90
     desconto = preco * 0.04

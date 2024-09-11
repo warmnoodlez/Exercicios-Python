@@ -9,13 +9,14 @@ def substituir_acentos(string):
 frase_inv = frase.lower()
 frase_inv = substituir_acentos(frase_inv)
 frase_inv = frase_inv.replace(" ", "")
+frase_alt = frase_inv
 tmn_frase = len(frase_inv)
-print(frase_inv)
+print(frase_alt)
 frase_inv = frase_inv[::-1]
 print(frase_inv)
 
 for i in range (0,tmn_frase):
-    if frase_inv[i] == frase_inv[i]:
+    if frase_inv[i] == frase_alt[i]:
         condicao = True
     else:
         condicao = False
