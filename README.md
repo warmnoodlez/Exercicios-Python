@@ -1,4 +1,4 @@
-# Exercicios-Python
+# Exercicios-Python - 23/10
 1) Faça um algoritmo que exiba “Olá Mundo”.
 2) Faça um algoritmo que receba um nome e escreva o nome.
 3) Faça um algoritmo que receba 3 números e faça a operação de soma e exiba o resultado obtido.
